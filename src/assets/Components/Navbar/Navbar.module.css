@@ -1,0 +1,25 @@
+.nav {
+  margin-top: 32px;
+}
+
+.cabecalhoLista {
+  display: flex;
+  gap: 14px;
+}
+
+.cabecalhoBtn {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid var(--clr-gold);
+  border-radius: 4px;
+  color: var(--clr-gold);
+  cursor: pointer;
+  height: 22px;
+}
+
+.cabecalhoBtn:hover {
+  border-color: var(--clr-grey-10);
+  background-color: var(--clr-gold);
+  color: var(--clr-grey-10);
+}

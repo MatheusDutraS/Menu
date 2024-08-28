@@ -1,0 +1,41 @@
+.card {
+  display: flex;
+  gap: 16px;
+}
+
+.cardImage {
+  border: 3px solid var(--clr-gold);
+  border-radius: 4px;
+  object-fit: cover;
+  width: 100%;
+  max-width: 150px;
+  height: 100px;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardCabecalho {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 4px;
+  border-bottom: 2px solid lightgray;
+}
+
+.cardCabecalhoTitulo {
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.cardCabecalhoPreco {
+  color: var(--clr-gold);
+  font-weight: 600;
+}
+
+.cardDescricao {
+  font-size: 12px;
+  line-height: normal;
+  margin-top: 8px;
+}

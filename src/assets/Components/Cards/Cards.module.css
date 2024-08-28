@@ -1,0 +1,6 @@
+.menuCards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 500px);
+  justify-content: center;
+  gap: 32px;
+}
